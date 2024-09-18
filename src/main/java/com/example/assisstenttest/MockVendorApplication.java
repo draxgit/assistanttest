@@ -19,7 +19,7 @@ import java.util.List;
 @SpringBootApplication
 public class MockVendorApplication {
 
-    public static void main(String[] args) {
+    public static void gitmain(String[] args) {
         SpringApplication.run(MockVendorApplication.class, args);
 
         Test.test();
