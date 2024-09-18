@@ -60,7 +60,7 @@ public class MockVendorApplication {
                     url,
                     HttpMethod.GET,
                     entity,
-                    new ParameterizedTypeReference<>() {}
+                    new ParameterizedTypeReference<>() {}pwd
             );
 
             List<ScanItem> scanItems = response.getBody();
